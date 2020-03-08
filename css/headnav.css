@@ -1,0 +1,320 @@
+body {
+    min-width: 350px;
+    width: auto !important;
+}
+
+/*visina plave trake my-header*/
+.my-header {
+    background-image: none;
+    background-color: #18527b;
+    border-bottom: none;
+    height: 70px;
+}
+
+/*brand uz desnu ivicu div-a*/
+.navbar-brand {
+    padding: 0;
+    float: right;
+}
+
+/* sredjivanje logo.png  */
+.navbar-brand>img {
+    height: 120px;
+    padding: 10px;
+    width: auto;
+    background-color: #1b8f16;
+}
+
+/*Naslov VTS*/
+.vts-naslov {
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.vts-naslov>p {
+    margin-bottom: 0;
+    height: 70px;
+}
+
+.my-search {
+    float: right;
+}
+
+.my-menu {
+    padding: 0;
+}
+
+/*skidanje senke sa menija*/
+.navbar-default {
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background-color: #1b8f16;
+    border-radius: 0;
+}
+
+/*boja fonta u meniju*/
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    background: none;
+}
+
+.navbar-toggle {
+    color: #18527b;
+    border: 2px solid #18527b;
+    background-color: #4388cc;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #18527b;
+    border-radius: 50%;
+}
+
+.my-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+/*meni verzija 3*/
+.dropdown-menu.multi-column {
+    left: -200px;
+    width: 700px;
+}
+
+.dropdown-menu.multi-column .dropdown-menu {
+    display: block;
+    position: static;
+    margin: 0;
+    border: none !important;
+    box-shadow: none;
+    left: -100px;
+}
+
+.dropdown-menu>li>a {
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+
+.dropdown-menu.dropdown-menu.multi-column li {
+    background-color: #4388cc;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background: #1e6d36;
+    background-image: none;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #ffffff;
+    background-color: #18527b;
+    background-image: none;
+}
+
+.dropdown-menu {
+    background-color: #18527b;
+    border: none;
+}
+
+.checkbox label {
+    color: #ffffff;
+}
+
+/*podesavanja za responsive rezolucije*/
+@media screen and (max-width: 1040px) {
+    .navbar-default .navbar-nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/*promena break-point-a*/
+@media screen and (max-width: 992px) {
+    .navbar {
+        min-height: 30px !important;
+    }
+
+    .navbar-default,
+    .navbar-header {
+        height: 50px;
+        margin-bottom: 0px;
+    }
+
+    .my-login {
+        right: 10%;
+        position: absolute;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .navbar-header {
+        width: 50%;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    .navbar-collapse {
+        background-color: #18527b;
+        border-top: none;
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        z-index: 5;
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    #myNavbar {
+        border: none;
+        width: 110%;
+    }
+
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>a:focus {
+        color: #ffffff;
+        background-image: none;
+    }
+
+    .dropdown-menu.multi-column {
+        left: 0;
+    }
+
+    .dropdown-menu.multi-column {
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand>img {
+        height: 100px;
+    }
+
+    .vts-naslov {
+        font-size: 1em;
+    }
+
+    .my-search {
+        display: none;
+    }
+
+    /*pozicioniranje toggle button-a, boja fonta u dropdown-u*/
+    .navbar-toggle {
+        position: absolute;
+        right: 10%;
+        display: block;
+        top: -65px;
+        color: #18527b;
+        z-index: 9;
+        font-size: 1.8em;
+        border: 1px solid #18527b;
+    }
+
+    /*overide visine bootstrap menija*/
+    .navbar {
+        min-height: 30px !important;
+    }
+
+    .navbar-default,
+    .navbar-header {
+        height: 30px;
+        margin-bottom: 0px;
+    }
+
+    /*login screen*/
+    .my-login {
+        top: -5px;
+        height: 30px;
+        position: absolute;
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+        padding: 5px;
+        width: 120px;
+    }
+
+    .my-login>li>a {
+        padding: 5px;
+    }
+
+    .login-dropdown {
+        position: absolute !important;
+    }
+
+    .navbar-right .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+
+    #myNavbar {
+        border: none;
+        width: 110%;
+    }
+}
+
+/*@media screen and (max-width: 450px) {
+    .my-header {
+        margin-left: 20px;
+    }
+}
+
+/*@media screen and (max-width: 767px) {
+  .navbar-header {
+    width: 10%;
+  }
+}*/
+
+@media screen and (max-width: 767px) {
+    /*.navbar-header {
+    width: 10%;
+  }*/
+
+    .dropdown-menu {
+        background-color: #18527b !important;
+    }
+
+    @media (max-width: 767px) {
+        .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+            color: #fff;
+        }
+    }
+}

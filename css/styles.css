@@ -1,0 +1,447 @@
+.col-md-5k,
+.col-lg-5k {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.naslov * {
+  font-weight: bold;
+  color: hsl(205, 67%, 29%);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.kvadrati {
+  margin-top: 3%;
+}
+
+.kvadrati a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.content {
+  position: absolute;
+  height: 90%;
+  /* = 100% - 2*5% padding */
+  width: 90%;
+  /* = 100% - 2*5% padding */
+  padding: 5%;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+
+.img-responsive {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.jedan {
+  background-color: #75957a;
+  /*-webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;*/
+}
+
+.dva {
+  background-color: #82b781;
+}
+
+.tri {
+  background-color: #b5be85;
+}
+
+.cetiri {
+  background-color: #c8cb61;
+}
+
+.pet {
+  background-color: #8ab5db;
+}
+
+.sest {
+  background-color: #deb33d;
+}
+
+.sedam {
+  background-color: #de7646;
+}
+
+.osam {
+  background-color: #4fc2c6;
+}
+
+.devet {
+  background-color: #915fa8;
+}
+
+.deset {
+  background-color: #67aa58;
+}
+
+.vesti-naslov {
+  border-top: #8ab5db 10px solid;
+  text-align: center;
+  color: white;
+
+}
+
+.info {
+  background-color: #18527b;
+  margin-top: 5%;
+  font-family: "Roboto Condensed", sans-serif;
+
+
+}
+
+.vesti-content {
+  background-color: #8db2d4;
+  text-align: center;
+  width: 100%;
+  padding: 1%;
+  color: #000000;
+  border: 4px #75957a solid;
+
+}
+
+.vesti-text th {
+  text-align: center;
+}
+
+.vesti-text td {
+  text-align: left;
+}
+
+.datum {
+  display: inline-block;
+  position: relative;
+  height: 0;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  border: 3px solid #576b66;
+  border-radius: 50%;
+  font-size: 1.2em;
+  padding: 30% 0;
+  line-height: 0;
+  background-color: white;
+}
+
+.sve-vesti {
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ffffff;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.footer {
+  padding-top: 50px;
+  border-top: 10px solid #1b8f16;
+  background-color: #18527b;
+  color: #b1dee6;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.footer a {
+  color: #cfcfcf;
+}
+
+.footer .table th {
+  border-bottom: 2px solid #fff;
+  border-width: length 30px;
+  text-align: center;
+}
+
+.footer-text {
+  width: 80%;
+}
+
+.dodatak {
+  background-color: #f1f368;
+  font-size: 3em;
+}
+
+.end {
+  background-color: rgba(226, 226, 226, 0.8);
+  padding-top: 2%;
+}
+
+.end-image {
+  padding: 0;
+}
+
+.end hr {
+  border-top: 3px solid #8db2d4;
+}
+
+.end-brand>img {
+  height: 70px;
+}
+
+.end-naslov {
+  font-size: 0.7em;
+}
+
+.soc-icons {
+  text-align: center;
+  font-size: 1em;
+  margin: 0 auto;
+  color: black;
+}
+
+.fab {
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*informacione-tehnologije.html*/
+.it {
+  margin-top: 2%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.itbg {
+  margin: 0;
+  background-color: #282F39;
+  background-image: url(/images/it-portrait.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.naslov-it * {
+  background-color: rgba(24, 82, 123, 0.8);
+  margin: 5% auto 5% auto;
+  width: 50%;
+  padding: 2%;
+  border-width: 3px 0;
+  border-color: #4fc2c6;
+  border-style: solid;
+  font-weight: bold;
+  color: #ffffff;
+  color: rgba(255, 255, 255, .7);
+  text-shadow: -2px 0px 11px rgba(150, 150, 150, 1);
+  text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+
+.it-row .col-lg-4:nth-of-type(odd) .kursevi {
+  background-color: rgba(55, 36, 63, 0.8);
+
+}
+
+.it-row .col-lg-4:nth-of-type(even) .kursevi {
+  background-color: rgba(24, 82, 123, 0.8);
+  border-color: #4fc2c6;
+
+  /*background-image: url(/images/back-02.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;*/
+
+}
+
+.kursevi {
+  margin-bottom: 10%;
+  padding: 10px;
+  height: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 15px;
+  font-size: 1.2em;
+  border-width: 4px 0;
+  border-color: #a651ec;
+  border-style: solid;
+  color: white;
+
+
+}
+
+
+
+.prva-rec {
+  font-size: 1.5em;
+}
+
+.it-footer {
+  /*height: 280px;
+  position: relative;
+  bottom: 0;*/
+  border-top: 10px #1b8f16 solid;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .square {
+    position: relative;
+    padding-bottom: 25%;
+    /* = width for a 1:1 aspect ratio */
+    overflow: hidden;
+  }
+
+  .content {
+    font-size: 1.2vw;
+  }
+
+  .poslednji {
+    display: none;
+  }
+
+  .dodatak {
+    background-color: #f1f368;
+    font-size: 3vw;
+  }
+
+  .mainbg {
+    background-image: url(/images/back-02.jpg);
+    background-size: 130%;
+    /* Safari 6.0 - 9.0 */
+
+
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .col-md-5k {
+    width: 20%;
+    float: left;
+  }
+
+  .square {
+    padding-bottom: 17%;
+  }
+
+  .content {
+    font-size: 1.1vw;
+  }
+
+  .poslednji {
+    display: block;
+  }
+
+  .dodatak {
+    display: none;
+  }
+
+  .mainbg {
+    background-image: url(/images/back.jpg);
+    background-size: 150%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .col-lg-5k {
+    width: 20%;
+    float: left;
+  }
+
+  .content {
+    font-size: 1vw;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .square {
+    padding-bottom: 50%;
+  }
+
+  .content {
+    font-size: 4.5vw;
+  }
+
+  .datum {
+    display: inline-block;
+    position: relative;
+    height: 0;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid #576b66;
+    border-radius: 50%;
+    font-size: 1.2em;
+    padding: 10% 0;
+    line-height: 0;
+    background-color: white;
+  }
+
+  .vesti-content {
+    margin-bottom: 10px;
+  }
+
+  .dodatak {
+    display: none;
+  }
+
+  .end-brand>img {
+    height: 50px;
+  }
+
+  .end-naslov {
+    font-size: 0.5em;
+  }
+
+  .naslov-it * {
+    margin: 5% auto 5% auto;
+    width: 90%;
+    font-size: 30px;
+  }
+
+}
+
+
+
+
+
+/*.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: text-top;
+  text-align: center;
+}

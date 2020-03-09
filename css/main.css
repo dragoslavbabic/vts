@@ -1,0 +1,19 @@
+.col-md-5k,
+.col-lg-5k {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.naslov h1 {
+  color: hsl(205, 67%, 29%);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+.kvadrati {
+  margin-top: 3%;
+}
+.kvadrati a {
+  color: black;
+}
+

@@ -6,7 +6,7 @@
   padding-left: 10px;
 }
 
-.naslov * {
+.naslov h1 {
   font-weight: bold;
   color: hsl(205, 67%, 29%);
   font-family: "Roboto Condensed", sans-serif;
@@ -21,7 +21,12 @@
   text-decoration: none;
 }
 
-.content {
+.img-responsive {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.centralni_kvadrati .content{
   position: absolute;
   height: 90%;
   /* = 100% - 2*5% padding */
@@ -33,66 +38,55 @@
   font-weight: bold;
 }
 
-.img-responsive {
-  width: 45%;
-  margin: 0 auto;
-}
-
-.jedan {
+.centralni_kvadrati>a:nth-child(1)>div {
   background-color: #75957a;
-  /*-webkit-transition: border .2s ease-in-out;
-  -o-transition: border .2s ease-in-out;
-  transition: border .2s ease-in-out;*/
-}
-
-.dva {
+  }
+.centralni_kvadrati>a:nth-child(2)>div {
   background-color: #82b781;
 }
 
-.tri {
+.centralni_kvadrati>a:nth-child(3)>div {
   background-color: #b5be85;
 }
 
-.cetiri {
+.centralni_kvadrati>a:nth-child(4)>div {
   background-color: #c8cb61;
 }
 
-.pet {
+.centralni_kvadrati>a:nth-child(5)>div {
   background-color: #8ab5db;
 }
 
-.sest {
-  background-color: #deb33d;
-}
-
-.sedam {
+.centralni_kvadrati>a:nth-child(7)>div {
   background-color: #de7646;
 }
 
-.osam {
+.centralni_kvadrati>a:nth-child(8)>div {
+  background-color: #deb33d;
+}
+
+.centralni_kvadrati>a:nth-child(9)>div{
   background-color: #4fc2c6;
 }
 
-.devet {
+.centralni_kvadrati>a:nth-child(10)>div {
   background-color: #915fa8;
 }
 
-.deset {
+.centralni_kvadrati>a:nth-child(11)>div {
   background-color: #67aa58;
-}
-
-.vesti-naslov {
-  border-top: #8ab5db 10px solid;
-  text-align: center;
-  color: white;
-
 }
 
 .info {
   background-color: #18527b;
   margin-top: 5%;
   font-family: "Roboto Condensed", sans-serif;
+}
 
+.vesti-naslov {
+  border-top: #8ab5db 10px solid;
+  text-align: center;
+  color: white;
 
 }
 
@@ -114,23 +108,8 @@
   text-align: left;
 }
 
-.datum {
-  display: inline-block;
-  position: relative;
-  height: 0;
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  vertical-align: middle;
-  border: 3px solid #576b66;
-  border-radius: 50%;
-  font-size: 1.2em;
-  padding: 30% 0;
-  line-height: 0;
-  background-color: white;
-}
 
-.sve-vesti {
+.vesti-sve {
   margin: 0 auto;
   font-size: 1em;
   text-align: center;
@@ -146,6 +125,22 @@
   border-top: 20px solid #ffffff;
   margin: 0 auto;
   padding-bottom: 10px;
+}
+
+.datum {
+  display: inline-block;
+  position: relative;
+  height: 0;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  border: 3px solid #576b66;
+  border-radius: 50%;
+  font-size: 1.2em;
+  padding: 30% 0;
+  line-height: 0;
+  background-color: white;
 }
 
 .footer {

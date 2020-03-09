@@ -16,4 +16,42 @@
 .kvadrati a {
   color: black;
 }
-
+.centralni_kvadrati .content {
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  padding: 5%;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+}
+.centralni_kvadrati > a:nth-child(1) > div {
+  background-color: #75957a;
+}
+.centralni_kvadrati > a:nth-child(2) > div {
+  background-color: #82b781;
+}
+.centralni_kvadrati > a:nth-child(3) > div {
+  background-color: #b5be85;
+}
+.centralni_kvadrati > a:nth-child(4) > div {
+  background-color: #c8cb61;
+}
+.centralni_kvadrati > a:nth-child(5) > div {
+  background-color: #8ab5db;
+}
+.centralni_kvadrati > a:nth-child(7) > div {
+  background-color: #de7646;
+}
+.centralni_kvadrati > a:nth-child(8) > div {
+  background-color: #deb33d;
+}
+.centralni_kvadrati > a:nth-child(9) > div {
+  background-color: #4fc2c6;
+}
+.centralni_kvadrati > a:nth-child(10) > div {
+  background-color: #915fa8;
+}
+.centralni_kvadrati > a:nth-child(11) > div {
+  background-color: #67aa58;
+}

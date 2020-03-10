@@ -1,19 +1,20 @@
-@boja-naslov:hsl(205, 67%, 29%);
-@boja-teksta-kvadrata:black;
-@boja-kvadrata-gid:#75957a;
-@boja-kvadrata-dip:#82b781;
-@boja-kvadrata-wdz:#b5be85;
-@boja-kvadrata-min:#c8cb61;
-@boja-kvadrata-drs:#8ab5db;
-@boja-kvadrata-elk:#de7646;
-@boja-kvadrata-ith:#deb33d;
-@boja-kvadrata-zkdp:#4fc2c6;
-@boja-kvadrata-znr:#915fa8;
-@boja-kvadrata-zzs:#67aa58;
+@boja-naslov: hsl(205, 67%, 29%);
+@boja-teksta-kvadrata: black;
+@boja-kvadrata-gid: #75957a;
+@boja-kvadrata-dip: #82b781;
+@boja-kvadrata-wdz: #b5be85;
+@boja-kvadrata-min: #c8cb61;
+@boja-kvadrata-drs: #8ab5db;
+@boja-kvadrata-elk: #de7646;
+@boja-kvadrata-ith: #deb33d;
+@boja-kvadrata-zkdp: #4fc2c6;
+@boja-kvadrata-znr: #915fa8;
+@boja-kvadrata-zzs: #67aa58;
 
 @font_centralni_kvadrati: "Roboto Condensed", sans-serif;
 
-@padding_centralni_kvadrati:5%;
+@padding_centralni_kvadrati: 5%;
+@visina_kvadrata_sadrzaj=100%-(2*@padding_centralni_kvadrati);
 
 .k5-base() {
   position: relative;
@@ -22,85 +23,97 @@
   padding-left: 10px;
 }
 
-.col-md-5k, .col-lg-5k{
-    .k5-base;
+.col-md-5k,
+.col-lg-5k {
+  .k5-base;
 }
 
 .naslov {
-	h1 {
-		color:@boja-naslov;
-		font-family: @font_centralni_kvadrati;
-		font-weight: bold;
-	}
+  h1 {
+    color: @boja-naslov;
+    font-family: @font_centralni_kvadrati;
+    font-weight: bold;
+  }
 }
 
 .kvadrati {
   margin-top: 3%;
-      a{
-      color:@boja-teksta-kvadrata;
-    }
+
+  a {
+    color: @boja-teksta-kvadrata;
+  }
+}
+
+.centralni_kvadrati {
+  .content {
+    position: absolute;
+    height:
+      width: 90%;
+    padding: @padding_centralni_kvadrati;
+    text-align: center;
+    font-family: @font_centralni_kvadrati;
+    font-weight: bold;
   }
 
-  .centralni_kvadrati {
-    .content {
-      position: absolute;
-      height: 100%-(2*@padding_centralni_kvadrati);
-      width: 90%;
-      padding: @padding_centralni_kvadrati;
-      text-align: center;
-      font-family: @font_centralni_kvadrati;
-      font-weight: bold;
+  >a {
+    &:nth-child(1) {
+      >div {
+        background-color: @boja-kvadrata-gid;
+      }
     }
-    >a {
-      &:nth-child(1) {
-        >div {
-          background-color: @boja-kvadrata-gid;
-        }
+
+    &:nth-child(2) {
+      >div {
+        background-color: @boja-kvadrata-dip;
       }
-      &:nth-child(2) {
-        >div {
-          background-color: @boja-kvadrata-dip;
-        }
+    }
+
+    &:nth-child(3) {
+      >div {
+        background-color: @boja-kvadrata-wdz;
       }
-      &:nth-child(3) {
-        >div {
-          background-color: @boja-kvadrata-wdz;
-        }
+    }
+
+    &:nth-child(4) {
+      >div {
+        background-color: @boja-kvadrata-min;
       }
-      &:nth-child(4) {
-        >div {
-          background-color: @boja-kvadrata-min;
-        }
+    }
+
+    &:nth-child(5) {
+      >div {
+        background-color: @boja-kvadrata-drs;
       }
-      &:nth-child(5) {
-        >div {
-          background-color: @boja-kvadrata-drs;
-        }
+    }
+
+    &:nth-child(7) {
+      >div {
+        background-color: @boja-kvadrata-elk;
       }
-      &:nth-child(7) {
-        >div {
-          background-color: @boja-kvadrata-elk;
-        }
+    }
+
+    &:nth-child(8) {
+      >div {
+        background-color: @boja-kvadrata-ith;
       }
-      &:nth-child(8) {
-        >div {
-          background-color: @boja-kvadrata-ith;
-        }
+    }
+
+    &:nth-child(9) {
+      >div {
+        background-color: @boja-kvadrata-zkdp;
       }
-      &:nth-child(9) {
-        >div {
-          background-color: @boja-kvadrata-zkdp;
-        }
+    }
+
+    &:nth-child(10) {
+      >div {
+        background-color: @boja-kvadrata-znr;
       }
-      &:nth-child(10) {
-        >div {
-          background-color: @boja-kvadrata-znr;
-        }
-      }
-      &:nth-child(11) {
-        >div {
-          background-color: @boja-kvadrata-zzs;
-        }
+    }
+
+    &:nth-child(11) {
+      >div {
+        background-color: @boja-kvadrata-zzs;
       }
     }
   }
+}

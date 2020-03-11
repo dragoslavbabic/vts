@@ -14,7 +14,7 @@
 @font_centralni_kvadrati: "Roboto Condensed", sans-serif;
 
 @padding_centralni_kvadrati: 5%;
-@visina_kvadrata_sadrzaj=100%-(2*@padding_centralni_kvadrati);
+@visina_kvadrata_sadrzaj:100%-(2*@padding_centralni_kvadrati);
 
 .k5-base() {
   position: relative;
@@ -47,8 +47,8 @@
 .centralni_kvadrati {
   .content {
     position: absolute;
-    height:
-      width: 90%;
+    height:@visina_kvadrata_sadrzaj;
+    width:@visina_kvadrata_sadrzaj;
     padding: @padding_centralni_kvadrati;
     text-align: center;
     font-family: @font_centralni_kvadrati;

@@ -10,17 +10,28 @@
 @boja-kvadrata-zkdp: #4fc2c6;
 @boja-kvadrata-znr: #915fa8;
 @boja-kvadrata-zzs: #67aa58;
+@boja-pozadina-info_footer:#18527b;
 
 @font_centralni_kvadrati: "Roboto Condensed", sans-serif;
 
 @padding_centralni_kvadrati: 5%;
 @visina_kvadrata_sadrzaj:100%-(2*@padding_centralni_kvadrati);
 
+@phone: ~"only screen and (max-width:767px)";
+@tablet: ~"only screen and (min-width:768px)";
+@laptop: ~"only screen and (min-width:992px)";
+@desktop: ~"only screen and (min-width:1200px)";
+
+
 .k5-base() {
   position: relative;
   min-height: 1px;
   padding-right: 10px;
   padding-left: 10px;
+  @media @laptop, @desktop{
+    width: 20%;
+    float: left;
+  }
 }
 
 .col-md-5k,
@@ -28,6 +39,17 @@
   .k5-base;
 }
 
+.mainbg {
+  @media @tablet{
+  background-image: url(/images/back-02.jpg);
+  background-size: 130%;
+  /* Safari 6.0 - 9.0 */
+  }
+  @media @laptop{
+  background-image: url(/images/back.jpg);
+  background-size: 150%;
+  }
+}
 .naslov {
   h1 {
     color: @boja-naslov;
@@ -36,13 +58,27 @@
   }
 }
 
-.kvadrati {
-  margin-top: 3%;
 
+.red-kvadrati {
+  margin-top: 3%;
   a {
     color: @boja-teksta-kvadrata;
   }
 }
+
+.kvadrat{
+  @media @tablet{
+    position: relative;
+    padding-bottom: 25%;
+    overflow: hidden;
+  }
+    @media @laptop, @desktop{
+      padding-bottom: 17%;
+    }
+}
+
+
+
 
 .centralni_kvadrati {
   .content {
@@ -53,6 +89,19 @@
     text-align: center;
     font-family: @font_centralni_kvadrati;
     font-weight: bold;
+    @media @tablet{
+      font-size: 1.2vw;
+    }
+    @media @laptop{
+      font-size: 1.1vw;
+    }
+    @media @desktop{
+    font-size: 1vw;
+    }
+    &-img{
+      width: 45%;
+      margin: 0 auto;
+    }
   }
 
   >a {
@@ -115,5 +164,35 @@
         background-color: @boja-kvadrata-zzs;
       }
     }
+  }
+
+  .dodatni-kvadrat{
+    background-color: #f1f368;
+    font-size: 3em;
+  
+    @media @tablet{
+      font-size: 3vw;
+    }
+    @media @laptop{
+      display: none;
+    }
+    @media @desktop{
+      font-size: 1vw;
+    }
+  }
+}
+
+
+
+
+.info{
+  background-color:@boja-pozadina-info_footer;
+  margin-top: 5%;
+  font-family: @font_centralni_kvadrati;
+
+  &-vesti-naslov{
+    border-top: #8ab5db 10px solid;
+    text-align: center;
+    color: white;
   }
 }

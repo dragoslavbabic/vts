@@ -76,35 +76,85 @@
   width: 45%;
   margin: 0 auto;
 }
-.centralni_kvadrati > a:nth-child(1) > div {
-  background-color: #75957a;
+.centralni_kvadrati .bg-10 {
+  background-image: url('/images/10.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(2) > div {
-  background-color: #82b781;
+.centralni_kvadrati .bg-9 {
+  background-image: url('/images/9.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(3) > div {
-  background-color: #b5be85;
+.centralni_kvadrati .bg-8 {
+  background-image: url('/images/8.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(4) > div {
-  background-color: #c8cb61;
+.centralni_kvadrati .bg-7 {
+  background-image: url('/images/7.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(5) > div {
-  background-color: #8ab5db;
+.centralni_kvadrati .bg-6 {
+  background-image: url('/images/6.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(7) > div {
-  background-color: #de7646;
+.centralni_kvadrati .bg-5 {
+  background-image: url('/images/5.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(8) > div {
-  background-color: #deb33d;
+.centralni_kvadrati .bg-4 {
+  background-image: url('/images/4.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(9) > div {
-  background-color: #4fc2c6;
+.centralni_kvadrati .bg-3 {
+  background-image: url('/images/3.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(10) > div {
-  background-color: #915fa8;
+.centralni_kvadrati .bg-2 {
+  background-image: url('/images/2.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
-.centralni_kvadrati > a:nth-child(11) > div {
-  background-color: #67aa58;
+.centralni_kvadrati .bg-1 {
+  background-image: url('/images/1.png');
+  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: right 50% bottom 15%;
 }
 .centralni_kvadrati .dodatni-kvadrat {
   background-color: #f1f368;
@@ -131,7 +181,15 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 .info-vesti-naslov {
-  border-top: #8ab5db 10px solid;
+  border-top: #75957a 10px solid;
   text-align: center;
   color: white;
+}
+.info-vesti-content {
+  background-color: #8db2d4;
+  text-align: center;
+  width: 100%;
+  padding: 1%;
+  color: #000000;
+  border: 4px #75957a solid;
 }

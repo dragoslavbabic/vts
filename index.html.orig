@@ -61,37 +61,42 @@
       <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
         <div class="row centralni_kvadrati">
           <a href="#">
-            <div class="col-lg-5k col-md-5k col-sm-3 col-xs-6 kvadrat">
-              <div class="content bg-1">
+            <div class="col-lg-5k col-md-5k col-sm-3 col-xs-6 jedan kvadrat">
+              <div class="content">
                 <p>ГРАФИЧКО ИНЖЕЊЕРСТВО И ДИЗАЈН</p>
+                <!--img class="content-img" src="./images/gid.png" alt="Grafi" /-->
               </div>
             </div>
           </a>
           <a href="#">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-2">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 dva kvadrat">
+              <div class="content">
+                <img class="content-img" src="./images/dip.png" alt="Grafi" />
                 <p>ДИЗАЈН ИНДУСТРИЈСКИХ ПРОИЗВОДА</p>
               </div>
             </div>
           </a>
           <a href="#">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-3">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 tri kvadrat">
+              <div class="content">
                 <p>ВЕБ ДИЗАЈН</p>
+                <img class="content-img" src="./images/vd.png" alt="Grafi" />
               </div>
             </div>
           </a>
           <a href="#">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-4">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 cetiri kvadrat">
+              <div class="content">
+                <img class="content-img" src="./images/masinsko.png" alt="Grafi" />
                 <p>МАШИНСКО ИНЖЕЊЕРСТВО</p>
               </div>
             </div>
           </a>
           <a href="#">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-5">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 pet kvadrat">
+              <div class="content">
                 <p>ДРУМСКИ САОБРАЋАЈ</p>
+                <img class="content-img" src="./images/drumski.png" alt="Grafi" />
               </div>
             </div>
           </a>
@@ -101,37 +106,42 @@
               </div>
             </div>
           <a href="#">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-6">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 sest kvadrat">
+              <div class="content">
+                <img class="content-img" src="./images/elektro.png" alt="Grafi" />
                 <p>ЕЛЕКТРОТЕХНИКА</p>
               </div>
             </div>
           </a>
           <a href="informacione-tehnologije.html">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-7">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 sedam kvadrat">
+              <div class="content">
                 <p>ИНФОРМАЦИОНЕ ТЕХНОЛОГИЈЕ</p>
+                <img class="content-img" src="./images/it.png" alt="Grafi" />
               </div>
             </div>
           </a>
           <a href="#">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-8">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 osam kvadrat">
+              <div class="content">
+                <img class="content-img" src="./images/zok.png" alt="Grafi" />
                 <p>ЗАШТИТА ОД КАТАСТРОФАЛНИХ ДОГАЂАЈА И ПОЖАРА</p>
               </div>
             </div>
           </a>
           <a href="#">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-9">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 devet kvadrat">
+              <div class="content">
                 <p>ЗАШТИТА НА РАДУ</p>
+                <img class="content-img" src="./images/elektro.png" alt="Grafi" />
               </div>
             </div>
           </a>
           <a href="#">
-            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6  kvadrat">
-              <div class="content bg-10">
+            <div class="col-lg-5k  col-md-5k col-sm-3 col-xs-6 deset kvadrat">
+              <div class="content">
                 <p>ЗАШТИТА ЖИВОТНЕ СРЕДИНЕ</p>
+                <img class="content-img" src="./images/zs.png" alt="Grafi" />
               </div>
             </div>
           </a>

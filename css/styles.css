@@ -40,6 +40,12 @@
 
 .centralni_kvadrati>a:nth-child(1)>div {
   background-color: #75957a;
+  background-image: url('../images/gid.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: unset;
+
+
   }
 .centralni_kvadrati>a:nth-child(2)>div {
   background-color: #82b781;
@@ -304,7 +310,7 @@
 
 
 @media screen and (min-width: 768px) {
-  .square {
+  .kvadrat {
     position: relative;
     padding-bottom: 25%;
     /* = width for a 1:1 aspect ratio */

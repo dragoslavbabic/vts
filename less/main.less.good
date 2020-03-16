@@ -1,15 +1,15 @@
 @boja-naslov: hsl(205, 67%, 29%);
 @boja-teksta-kvadrata: black;
-@boja-kvadrata-1: #75957a;
-@boja-kvadrata-2: #82b781;
-@boja-kvadrata-3: #b5be85;
-@boja-kvadrata-4: #c8cb61;
-@boja-kvadrata-5: #8ab5db;
-@boja-kvadrata-6: #de7646;
-@boja-kvadrata-7: #deb33d;
-@boja-kvadrata-8: #4fc2c6;
-@boja-kvadrata-9: #915fa8;
-@boja-kvadrata-10: #67aa58;
+@boja-kvadrata-gid: #75957a;
+@boja-kvadrata-dip: #82b781;
+@boja-kvadrata-wdz: #b5be85;
+@boja-kvadrata-min: #c8cb61;
+@boja-kvadrata-drs: #8ab5db;
+@boja-kvadrata-elk: #de7646;
+@boja-kvadrata-ith: #deb33d;
+@boja-kvadrata-zkdp: #4fc2c6;
+@boja-kvadrata-znr: #915fa8;
+@boja-kvadrata-zzs: #67aa58;
 @boja-pozadina-info_footer:#18527b;
 
 @font_centralni_kvadrati: "Roboto Condensed", sans-serif;
@@ -32,13 +32,6 @@
     width: 20%;
     float: left;
   }
-}
-
-.kvadrat_bg_image(){
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: 35%;
-  background-position: right 50% bottom 15%;
 }
 
 .col-md-5k,
@@ -110,17 +103,73 @@
       margin: 0 auto;
     }
   }
-   
-    @counter:10;
-    .slike(@i) when (@i > 0){
-       .bg-@{i}{
-        background-image: url('/images/@{i}.png');
-        background-color: @boja-kvadrata_'@@{i}';
-        .kvadrat_bg_image;
+
+  >a {
+    &:nth-child(1) {
+      >div {
+        background-color: @boja-kvadrata-gid;
+        background-image: url('/images/gid.png');
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background-position: right 50% bottom 15%;
       }
-      .slike((@i - 1));
     }
-    .slike(@counter);
+
+    &:nth-child(2) {
+      >div {
+        background-color: @boja-kvadrata-dip;
+      }
+    }
+
+    &:nth-child(3) {
+      >div {
+        background-color: @boja-kvadrata-wdz;
+      }
+    }
+
+    &:nth-child(4) {
+      >div {
+        background-color: @boja-kvadrata-min;
+      }
+    }
+
+    &:nth-child(5) {
+      >div {
+        background-color: @boja-kvadrata-drs;
+      }
+    }
+
+    &:nth-child(7) {
+      >div {
+        background-color: @boja-kvadrata-elk;
+      }
+    }
+
+    &:nth-child(8) {
+      >div {
+        background-color: @boja-kvadrata-ith;
+      }
+    }
+
+    &:nth-child(9) {
+      >div {
+        background-color: @boja-kvadrata-zkdp;
+      }
+    }
+
+    &:nth-child(10) {
+      >div {
+        background-color: @boja-kvadrata-znr;
+      }
+    }
+
+    &:nth-child(11) {
+      >div {
+        background-color: @boja-kvadrata-zzs;
+      }
+    }
+  }
 
   .dodatni-kvadrat{
     background-color: #f1f368;
@@ -144,7 +193,7 @@
   font-family: @font_centralni_kvadrati;
 
   &-vesti-naslov{
-    border-top: @boja-kvadrata-1 10px solid;
+    border-top: @boja-kvadrata-drs 10px solid;
     text-align: center;
     color: white;
   }
@@ -155,7 +204,6 @@
     padding: 1%;
     color: #000000;
     border: 4px #75957a solid;
-    
   }
 
 }

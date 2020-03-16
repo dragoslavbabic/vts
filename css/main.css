@@ -78,7 +78,7 @@
 }
 .centralni_kvadrati .bg-10 {
   background-image: url('/images/10.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -86,7 +86,7 @@
 }
 .centralni_kvadrati .bg-9 {
   background-image: url('/images/9.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -94,7 +94,7 @@
 }
 .centralni_kvadrati .bg-8 {
   background-image: url('/images/8.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -102,7 +102,7 @@
 }
 .centralni_kvadrati .bg-7 {
   background-image: url('/images/7.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -110,7 +110,7 @@
 }
 .centralni_kvadrati .bg-6 {
   background-image: url('/images/6.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -118,7 +118,7 @@
 }
 .centralni_kvadrati .bg-5 {
   background-image: url('/images/5.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -126,7 +126,7 @@
 }
 .centralni_kvadrati .bg-4 {
   background-image: url('/images/4.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -134,7 +134,7 @@
 }
 .centralni_kvadrati .bg-3 {
   background-image: url('/images/3.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -142,7 +142,7 @@
 }
 .centralni_kvadrati .bg-2 {
   background-image: url('/images/2.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -150,7 +150,7 @@
 }
 .centralni_kvadrati .bg-1 {
   background-image: url('/images/1.png');
-  background-color: "@boja-kvadrata-@{(i+1)}";
+  background-color: #75957a;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;

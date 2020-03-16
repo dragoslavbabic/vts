@@ -10,12 +10,12 @@
 @boja-kvadrata-8: #4fc2c6;
 @boja-kvadrata-9: #915fa8;
 @boja-kvadrata-10: #67aa58;
-@boja-pozadina-info_footer:#18527b;
+@boja-pozadina-info_footer: #18527b;
 
 @font_centralni_kvadrati: "Roboto Condensed", sans-serif;
 
 @padding_centralni_kvadrati: 5%;
-@visina_kvadrata_sadrzaj:100%-(2*@padding_centralni_kvadrati);
+@visina_kvadrata_sadrzaj: 100%-(2*@padding_centralni_kvadrati);
 
 @phone: ~"only screen and (max-width:767px)";
 @tablet: ~"only screen and (min-width:768px)";
@@ -28,13 +28,15 @@
   min-height: 1px;
   padding-right: 10px;
   padding-left: 10px;
-  @media @laptop, @desktop{
+
+  @media @laptop,
+  @desktop {
     width: 20%;
     float: left;
   }
 }
 
-.kvadrat_bg_image(){
+.kvadrat_bg_image() {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -47,16 +49,18 @@
 }
 
 .mainbg {
-  @media @tablet{
-  background-image: url(/images/back-02.jpg);
-  background-size: 130%;
-  /* Safari 6.0 - 9.0 */
+  @media @tablet {
+    background-image: url(/images/back-02.jpg);
+    background-size: 130%;
+    /* Safari 6.0 - 9.0 */
   }
-  @media @laptop{
-  background-image: url(/images/back.jpg);
-  background-size: 150%;
+
+  @media @laptop {
+    background-image: url(/images/back.jpg);
+    background-size: 150%;
   }
 }
+
 .naslov {
   h1 {
     color: @boja-naslov;
@@ -68,20 +72,23 @@
 
 .red-kvadrati {
   margin-top: 3%;
+
   a {
     color: @boja-teksta-kvadrata;
   }
 }
 
-.kvadrat{
-  @media @tablet{
+.kvadrat {
+  @media @tablet {
     position: relative;
     padding-bottom: 25%;
     overflow: hidden;
   }
-    @media @laptop, @desktop{
-      padding-bottom: 17%;
-    }
+
+  @media @laptop,
+  @desktop {
+    padding-bottom: 17%;
+  }
 }
 
 
@@ -90,72 +97,82 @@
 .centralni_kvadrati {
   .content {
     position: absolute;
-    height:@visina_kvadrata_sadrzaj;
-    width:@visina_kvadrata_sadrzaj;
+    height: @visina_kvadrata_sadrzaj;
+    width: @visina_kvadrata_sadrzaj;
     padding: @padding_centralni_kvadrati;
     text-align: center;
     font-family: @font_centralni_kvadrati;
     font-weight: bold;
-    @media @tablet{
+
+    @media @tablet {
       font-size: 1.2vw;
     }
-    @media @laptop{
+
+    @media @laptop {
       font-size: 1.1vw;
     }
-    @media @desktop{
-    font-size: 1vw;
+
+    @media @desktop {
+      font-size: 1vw;
     }
-    &-img{
+
+    &-img {
       width: 45%;
       margin: 0 auto;
     }
   }
-   
-    @counter:10;
-    .slike(@i) when (@i > 0){
-       .bg-@{i}{
-        background-image: url('/images/@{i}.png');
-        background-color: @boja-kvadrata_'@@{i}';
-        .kvadrat_bg_image;
-      }
-      .slike((@i - 1));
-    }
-    .slike(@counter);
 
-  .dodatni-kvadrat{
+  @counter: 10;
+
+  .slike(@i) when (@i > 0) {
+    .bg-@{i} {
+      background-image: url('/images/@{i}.png');
+      background-color: @boja-kvadrata-;
+      .kvadrat_bg_image;
+    }
+
+    .slike((@i - 1));
+  }
+
+  .slike(@counter);
+
+  .dodatni-kvadrat {
     background-color: #f1f368;
     font-size: 3em;
-  
-    @media @tablet{
+
+    @media @tablet {
       font-size: 3vw;
     }
-    @media @laptop{
+
+    @media @laptop {
       display: none;
     }
-    @media @desktop{
+
+    @media @desktop {
       font-size: 1vw;
     }
   }
 }
 
-.info{
-  background-color:@boja-pozadina-info_footer;
+.info {
+  background-color: @boja-pozadina-info_footer;
   margin-top: 5%;
   font-family: @font_centralni_kvadrati;
 
-  &-vesti-naslov{
+  &-vesti-naslov {
     border-top: @boja-kvadrata-1 10px solid;
     text-align: center;
     color: white;
   }
-  &-vesti-content{
+
+  &-vesti-content {
     background-color: #8db2d4;
     text-align: center;
     width: 100%;
     padding: 1%;
     color: #000000;
     border: 4px #75957a solid;
-    
+
   }
 
 }

@@ -37,9 +37,8 @@
 }
 
 .kvadrat_bg_image() {
-  background-position: bottom center;
   background-repeat: no-repeat;
-  background-size: 35%;
+  background-size: 37%;
   background-position: right 50% bottom 15%;
 }
 
@@ -69,7 +68,6 @@
   }
 }
 
-
 .red-kvadrati {
   margin-top: 3%;
 
@@ -87,12 +85,9 @@
 
   @media @laptop,
   @desktop {
-    padding-bottom: 17%;
+    padding-bottom: 20%;
   }
 }
-
-
-
 
 .centralni_kvadrati {
   .content {
@@ -115,25 +110,18 @@
     @media @desktop {
       font-size: 1vw;
     }
-
-    &-img {
-      width: 45%;
-      margin: 0 auto;
-    }
   }
 
-  @counter: 10;
-
-  .slike(@i) when (@i > 0) {
+  @counter: 1;
+  .slike(@i) when (@i < 11) {
     .bg-@{i} {
       background-image: url('/images/@{i}.png');
-      background-color: @boja-kvadrata-;
+      @bg_test: "boja-kvadrata-@{i}";
+      background-color: @@bg_test;
       .kvadrat_bg_image;
     }
-
-    .slike((@i - 1));
+    .slike((@i + 1));
   }
-
   .slike(@counter);
 
   .dodatni-kvadrat {
@@ -175,4 +163,9 @@
 
   }
 
+  &-vesti-text th{
+    text-align: center;
+  }
+
+  &-vesti
 }

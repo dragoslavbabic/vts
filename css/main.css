@@ -182,3 +182,13 @@
 .info-vesti-text th {
   text-align: center;
 }
+.info-vesti-text td {
+  text-align: left;
+}
+.info-vesti-sve {
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}

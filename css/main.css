@@ -192,3 +192,43 @@
   color: white;
   padding-top: 10px;
 }
+.footer {
+  padding-top: 50px;
+  border-top: 10px solid #1b8f16;
+  background-color: #18527b;
+  color: #b1dee6;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.footer ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+.footer a {
+  color: #cfcfcf;
+}
+.footer .table th {
+  border-bottom: 2px solid #fff;
+  border-width: length 30px;
+  text-align: center;
+}
+.footer-text {
+  width: 80%;
+}
+.end {
+  background-color: rgba(226, 226, 226, 0.8);
+  padding-top: 2%;
+}
+.end hr {
+  border-top: 3px solid #8db2d4;
+}
+.end-image {
+  padding: 0;
+}
+.end-naslov {
+  font-size: 0.7em;
+}
+.end-brand > img {
+  height: 70px;
+}

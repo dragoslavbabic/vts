@@ -219,12 +219,12 @@
 }
 
 /*informacione-tehnologije.html*/
-.it {
+.odsek {
   margin-top: 2%;
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.itbg {
+.odsek-bg {
   margin: 0;
   background-color: #282F39;
   background-image: url(/images/it-portrait.jpg);
@@ -240,7 +240,7 @@
 }
 
 
-.naslov-it * {
+.odsek-naslov * {
   background-color: rgba(24, 82, 123, 0.8);
   margin: 5% auto 5% auto;
   width: 50%;
@@ -258,12 +258,12 @@
 
 
 
-.it-row .col-lg-4:nth-of-type(odd) .kursevi {
+.odsek-row .col-lg-4:nth-of-type(odd) .odsek-kursevi {
   background-color: rgba(55, 36, 63, 0.8);
 
 }
 
-.it-row .col-lg-4:nth-of-type(even) .kursevi {
+.odsek-row .col-lg-4:nth-of-type(even) .odsek-kursevi {
   background-color: rgba(24, 82, 123, 0.8);
   border-color: #4fc2c6;
 
@@ -275,14 +275,14 @@
 
 }
 
-.kursevi {
+.odsek-kursevi {
   margin-bottom: 10%;
   padding: 10px;
   height: 300px;
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: 15px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   border-width: 4px 0;
   border-color: #a651ec;
   border-style: solid;
@@ -297,7 +297,7 @@
   font-size: 1.5em;
 }
 
-.it-footer {
+.odsek-footer {
   /*height: 280px;
   position: relative;
   bottom: 0;*/
@@ -423,7 +423,7 @@
     font-size: 0.5em;
   }
 
-  .naslov-it * {
+  .odsek-naslov * {
     margin: 5% auto 5% auto;
     width: 90%;
     font-size: 30px;

@@ -232,3 +232,15 @@
 .end-brand > img {
   height: 70px;
 }
+.soc-icons {
+  text-align: center;
+  font-size: 1em;
+  margin: 0 auto;
+  color: black;
+}
+.fab {
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}

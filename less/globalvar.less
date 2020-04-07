@@ -1,0 +1,45 @@
+@font_global: "Roboto Condensed", sans-serif;
+@images:"../images";
+@boja-naslov: hsl(205, 67%, 29%);
+@odsek-border: #4fc2c6;
+@odsek-bg-color:rgba(24, 82, 123, 0.8);
+@boja-pozadina: #18527b;
+@boja-vts_zelena:#1b8f16;
+
+
+@sw: ~"only screen and (max-width:340px)";
+@phone: ~"only screen and (max-width:767px)";
+@tablet: ~"only screen and (min-width:768px)";
+@laptop: ~"only screen and (min-width:992px)";
+@desktop: ~"only screen and (min-width:1200px)";
+@nav-laptop:~"only screen and (max-width:1040px)";
+@nav-tablet: ~"only screen and (max-width:992px)";
+
+.bg-size(@string:auto){
+    -webkit-background-size:  @arguments;
+    -moz-background-size:  @arguments;
+    -o-background-size:  @arguments;
+    background-size: @arguments;
+}
+
+.box-shadow(...)
+{
+    -webkit-box-shadow: @arguments;
+    -moz-box-shadow: @arguments;
+    box-shadow: @arguments;
+}
+
+.navbar-active-open(){
+    color: white !important;
+    background-image: none;
+
+}
+
+.col-sw-switch(){
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}

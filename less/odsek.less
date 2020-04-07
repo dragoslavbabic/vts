@@ -1,15 +1,103 @@
+@import (reference) "globalvar.less";
 
-
-.bg-size(@bg_size:cover;){
-    -webkit-background-size: @bg_size;
-    -moz-background-size: @bg_size;
-    -o-background-size: @bg_size;
-    background-size: @bg_size;
+.bg-image-param(@bg_att: fixed; @bg_pos: center; @bg_rpt: no-repeat; ) {
+  background-attachment: @bg_att;
+  background-position: @bg_pos;
+  background-repeat: @bg_rpt;
 }
 
+.kursevi-border(@radius: 15px; @width: 4px 0; @color: #a651ec; @style: solid; ) {
+  border-radius: @radius;
+  border-width: @width;
+  border-color: @color;
+  border-style: @style;
+}
+
+/*.text-shadow (@x: 0, @y: 0, @blur: 15px, @color: rgba(255, 255, 255, .5)) {
+    text-shadow+: @arguments;
+}*/
+
+.text-shadow(@x: 0, @y: 0, @blur: 15px, @color: rgba(255, 255, 255, .5)) {
+  text-shadow+: @x @y @blur @color;
+}
 
 .odsek {
-    margin-top: 2%;
-    font-family: "Roboto Condensed", sans-serif;
+  margin-top: 2%;
+  font-family: @font_global;
+
+  &-bg {
+    .bg-size(cover);
+    .bg-image-param;
+    margin: 0;
+    background-color: #282F39;
+    background-image: url("@{images}/it-portrait.jpg");
+    height: 100%;
   }
-  
+
+  &-naslov {
+    @media @phone {
+        margin: 5% auto 5% auto;
+        width: 90%;
+        font-size: 30px;
+    }
+
+    h1 {
+      background-color: @odsek-bg-color;
+      margin: 5% auto 5% auto;
+      width: 50%;
+      padding: 2%;
+      border-width: 3px 0;
+      border-color: @odsek-border;
+      border-style: solid;
+      color: #ffffff;
+      color: rgba(255, 255, 255, .7);
+      font-family: @font_global;
+      font-weight: bold;
+      .text-shadow();
+      text-shadow+: 0 0 10px rgba(255, 255, 255, .5);
+      @media @phone {
+        margin: 5% auto 5% auto;
+        width: 90%;
+        font-size: 30px;
+    }
+
+    }
+  }
+
+  &-row {
+    .col-lg-4:nth-of-type(even) {
+      .odsek-kursevi {
+        background-color: rgba(55, 36, 63, 0.8);
+      }
+    }
+
+    .col-lg-4:nth-of-type(odd) {
+      .odsek-kursevi {
+        background-color: @odsek-bg-color;
+        border-color: @odsek-border;
+      }
+    }
+  }
+
+  &-kursevi {
+    margin-bottom: 10%;
+    padding: 10px;
+    height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.1em;
+    color: white;
+    .kursevi-border;
+
+  }
+
+  &-footer {
+    border-top: 10px #1b8f16 solid;
+  }
+
+  &-prva-rec {
+    font-size: 1.5em;
+  }
+}
+
+@import "end";

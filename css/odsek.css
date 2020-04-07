@@ -1,4 +1,102 @@
+/*.text-shadow (@x: 0, @y: 0, @blur: 15px, @color: rgba(255, 255, 255, .5)) {
+    text-shadow+: @arguments;
+}*/
 .odsek {
   margin-top: 2%;
   font-family: "Roboto Condensed", sans-serif;
+}
+.odsek-bg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-color: #282F39;
+  background-image: url("../images/it-portrait.jpg");
+  height: 100%;
+}
+@media only screen and (max-width:767px) {
+  .odsek-naslov {
+    margin: 5% auto 5% auto;
+    width: 90%;
+    font-size: 30px;
+  }
+}
+.odsek-naslov h1 {
+  background-color: rgba(24, 82, 123, 0.8);
+  margin: 5% auto 5% auto;
+  width: 50%;
+  padding: 2%;
+  border-width: 3px 0;
+  border-color: #4fc2c6;
+  border-style: solid;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+}
+@media only screen and (max-width:767px) {
+  .odsek-naslov h1 {
+    margin: 5% auto 5% auto;
+    width: 90%;
+    font-size: 30px;
+  }
+}
+.odsek-row .col-lg-4:nth-of-type(even) .odsek-kursevi {
+  background-color: rgba(55, 36, 63, 0.8);
+}
+.odsek-row .col-lg-4:nth-of-type(odd) .odsek-kursevi {
+  background-color: rgba(24, 82, 123, 0.8);
+  border-color: #4fc2c6;
+}
+.odsek-kursevi {
+  margin-bottom: 10%;
+  padding: 10px;
+  height: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  color: white;
+  border-radius: 15px;
+  border-width: 4px 0;
+  border-color: #a651ec;
+  border-style: solid;
+}
+.odsek-footer {
+  border-top: 10px #1b8f16 solid;
+}
+.odsek-prva-rec {
+  font-size: 1.5em;
+}
+.end {
+  background-color: rgba(226, 226, 226, 0.8);
+  padding-top: 2%;
+}
+.end hr {
+  border-top: 3px solid #8db2d4;
+}
+.end-image {
+  padding: 0;
+}
+.end-naslov {
+  font-size: 0.7em;
+}
+.end-brand > img {
+  height: 70px;
+}
+.soc-icons {
+  text-align: center;
+  font-size: 1em;
+  margin: 0 auto;
+  color: black;
+}
+.fab {
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }

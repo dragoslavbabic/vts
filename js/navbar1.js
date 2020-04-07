@@ -1,5 +1,5 @@
 document.getElementById("navjs").innerHTML =
-    '<div class="navbar-header">' +
+    '<div class="navbar-header col-sw">' +
     '<button type="button" class="navbar-toggle my-button" data-toggle="collapse" data-target="#myNavbar">' +
     '<i class="glyphicon glyphicon-list">' +
     '<!--a>MENI</a-->' +
@@ -78,7 +78,7 @@ document.getElementById("navjs").innerHTML =
     '<ul class="col-lg-2col-md-2 col-sm-2 col-xs-4 nav navbar-nav navbar-right my-login">' +
     '<li class="dropdown active">' +
     '<a href="#" class="dropdown-toggle" data-toggle="dropdown">Мој ВТШ<b class="caret"></b></a>' +
-    '<ul class="dropdown-menu login-dropdown" style="padding: 15px;min-width: 250px;">' +
+    '<ul class="dropdown-menu my-login-dropdown" style="padding: 15px;min-width: 250px;">' +
     '<li>' +
     '<div class="row">' +
     '<div class="col-md-12">' +

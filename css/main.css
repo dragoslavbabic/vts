@@ -35,6 +35,11 @@
   text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
 }
+@media only screen and (max-width:340px) {
+  .footer {
+    font-size: 1.7em;
+  }
+}
 .footer ul {
   list-style-type: none;
   padding-left: 5px;
@@ -135,6 +140,11 @@
     font-size: 4.5vw;
   }
 }
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .content {
+    font-size: 5.5vw;
+  }
+}
 @media only screen and (min-width:768px) {
   .centralni_kvadrati .content {
     font-size: 1.2vw;
@@ -157,12 +167,22 @@
   background-size: 37%;
   background-position: right 50% bottom 15%;
 }
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-1 {
+    background-size: 25% ;
+  }
+}
 .centralni_kvadrati .bg-2 {
   background-image: url('../images/2.png');
   background-color: #82b781;
   background-repeat: no-repeat;
   background-size: 37%;
   background-position: right 50% bottom 15%;
+}
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-2 {
+    background-size: 25% ;
+  }
 }
 .centralni_kvadrati .bg-3 {
   background-image: url('../images/3.png');
@@ -171,12 +191,22 @@
   background-size: 37%;
   background-position: right 50% bottom 15%;
 }
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-3 {
+    background-size: 25% ;
+  }
+}
 .centralni_kvadrati .bg-4 {
   background-image: url('../images/4.png');
   background-color: #c8cb61;
   background-repeat: no-repeat;
   background-size: 37%;
   background-position: right 50% bottom 15%;
+}
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-4 {
+    background-size: 25% ;
+  }
 }
 .centralni_kvadrati .bg-5 {
   background-image: url('../images/5.png');
@@ -185,12 +215,22 @@
   background-size: 37%;
   background-position: right 50% bottom 15%;
 }
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-5 {
+    background-size: 25% ;
+  }
+}
 .centralni_kvadrati .bg-6 {
   background-image: url('../images/6.png');
   background-color: #de7646;
   background-repeat: no-repeat;
   background-size: 37%;
   background-position: right 50% bottom 15%;
+}
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-6 {
+    background-size: 25% ;
+  }
 }
 .centralni_kvadrati .bg-7 {
   background-image: url('../images/7.png');
@@ -199,12 +239,22 @@
   background-size: 37%;
   background-position: right 50% bottom 15%;
 }
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-7 {
+    background-size: 25% ;
+  }
+}
 .centralni_kvadrati .bg-8 {
   background-image: url('../images/8.png');
   background-color: #4fc2c6;
   background-repeat: no-repeat;
   background-size: 37%;
   background-position: right 50% bottom 15%;
+}
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-8 {
+    background-size: 25% ;
+  }
 }
 .centralni_kvadrati .bg-9 {
   background-image: url('../images/9.png');
@@ -213,12 +263,22 @@
   background-size: 37%;
   background-position: right 50% bottom 15%;
 }
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-9 {
+    background-size: 25% ;
+  }
+}
 .centralni_kvadrati .bg-10 {
   background-image: url('../images/10.png');
   background-color: #67aa58;
   background-repeat: no-repeat;
   background-size: 37%;
   background-position: right 50% bottom 15%;
+}
+@media only screen and (max-width:340px) {
+  .centralni_kvadrati .bg-10 {
+    background-size: 25% ;
+  }
 }
 .centralni_kvadrati .dodatni-kvadrat {
   background-color: #f1f368;

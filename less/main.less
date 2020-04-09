@@ -14,8 +14,6 @@
 @boja-kvadrata-9: #915fa8;
 @boja-kvadrata-10: #67aa58;
 
-
-
 @padding_centralni_kvadrati: 5%;
 @visina_kvadrata_sadrzaj: 100%-(2*@padding_centralni_kvadrati);
 
@@ -45,6 +43,9 @@
   background-repeat: no-repeat;
   background-size: 37%;
   background-position: right 50% bottom 15%;
+  @media @sw{
+    background-size: 25% ;
+  }
 }
 
 .col-md-5k,
@@ -75,7 +76,6 @@
 
 .red-kvadrati {
   margin-top: 3%;
-
   a {
     color: @boja-teksta-kvadrata;
   }
@@ -109,6 +109,10 @@
 
     @media @phone{
       font-size: 4.5vw;
+    }
+
+    @media @sw {
+      font-size: 5.5vw;
     }
 
     @media @tablet {

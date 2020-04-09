@@ -13,9 +13,11 @@
   border-style: @style;
 }
 
-/*.text-shadow (@x: 0, @y: 0, @blur: 15px, @color: rgba(255, 255, 255, .5)) {
-    text-shadow+: @arguments;
-}*/
+@media @sw {
+  .col-sw {
+    .col-sw-switch();
+  }
+}
 
 .text-shadow(@x: 0, @y: 0, @blur: 15px, @color: rgba(255, 255, 255, .5)) {
   text-shadow+: @x @y @blur @color;
@@ -88,7 +90,9 @@
     font-size: 1.1em;
     color: white;
     .kursevi-border;
-
+    @media @sw {
+      font-size: 1.2em;
+    }
   }
 
   &-footer {
@@ -97,6 +101,9 @@
 
   &-prva-rec {
     font-size: 1.5em;
+    @media @sw{
+      font-size: 1.4em;
+    }
   }
 }
 

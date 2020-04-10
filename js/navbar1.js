@@ -14,19 +14,19 @@ document.getElementById("navjs").innerHTML =
     '<div class="dropdown-menu multi-column">' +
     '<div class="container-fluid">' +
     '<div class="row-fluid">' +
-    '<div class="span4">' +
+    '<div class="span4 col-sw">' +
     '<ul class="dropdown-menu">' +
     '<li><a href="#">Закон о високом образовању</a></li>' +
     '<li><a href="#">Самовредновање</a></li>' +
     '</ul>' +
     '</div>' +
-    '<div class="span4">' +
+    '<div class="span4 col-sw">' +
     '<ul class="dropdown-menu">' +
     '<li><a href="#">Општа акта школе</a></li>' +
     '<li><a href="#">Кадар</a></li>' +
     '</ul>' +
     '</div>' +
-    '<div class="span4">' +
+    '<div class="span4 col-sw">' +
     '<ul class="dropdown-menu">' +
     '<li><a href="#">Jaвне набавке</a></li>' +
     '<li><a href="#">Акредитација</a></li>' +

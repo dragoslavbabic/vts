@@ -98,14 +98,14 @@
 }
 @media only screen and (min-width:768px) {
   .mainbg {
-    background-image: url("../images/back-02.jpg");
+    background-image: url("images/back-02.jpg");
     background-size: 130%;
     /* Safari 6.0 - 9.0 */
   }
 }
 @media only screen and (min-width:992px) {
   .mainbg {
-    background-image: url("../images/back.jpg");
+    background-image: url("images/back.jpg");
     background-size: 150%;
   }
 }
@@ -173,7 +173,7 @@
   }
 }
 .centralni_kvadrati .bg-1 {
-  background-image: url('../images/1.png');
+  background-image: url('images/1.png');
   background-color: #75957a;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -185,7 +185,7 @@
   }
 }
 .centralni_kvadrati .bg-2 {
-  background-image: url('../images/2.png');
+  background-image: url('images/2.png');
   background-color: #82b781;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -197,7 +197,7 @@
   }
 }
 .centralni_kvadrati .bg-3 {
-  background-image: url('../images/3.png');
+  background-image: url('images/3.png');
   background-color: #b5be85;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -209,7 +209,7 @@
   }
 }
 .centralni_kvadrati .bg-4 {
-  background-image: url('../images/4.png');
+  background-image: url('images/4.png');
   background-color: #c8cb61;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -221,7 +221,7 @@
   }
 }
 .centralni_kvadrati .bg-5 {
-  background-image: url('../images/5.png');
+  background-image: url('images/5.png');
   background-color: #8ab5db;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -233,7 +233,7 @@
   }
 }
 .centralni_kvadrati .bg-6 {
-  background-image: url('../images/6.png');
+  background-image: url('images/6.png');
   background-color: #de7646;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -245,7 +245,7 @@
   }
 }
 .centralni_kvadrati .bg-7 {
-  background-image: url('../images/7.png');
+  background-image: url('images/7.png');
   background-color: #deb33d;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -257,7 +257,7 @@
   }
 }
 .centralni_kvadrati .bg-8 {
-  background-image: url('../images/8.png');
+  background-image: url('images/8.png');
   background-color: #4fc2c6;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -269,7 +269,7 @@
   }
 }
 .centralni_kvadrati .bg-9 {
-  background-image: url('../images/9.png');
+  background-image: url('images/9.png');
   background-color: #915fa8;
   background-repeat: no-repeat;
   background-size: 37%;
@@ -281,7 +281,7 @@
   }
 }
 .centralni_kvadrati .bg-10 {
-  background-image: url('../images/10.png');
+  background-image: url('images/10.png');
   background-color: #67aa58;
   background-repeat: no-repeat;
   background-size: 37%;

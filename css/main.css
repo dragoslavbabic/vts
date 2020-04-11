@@ -14,6 +14,11 @@
 .end-brand > img {
   height: 70px;
 }
+@media only screen and (max-width:340px) {
+  .end-brand > img {
+    height: 50px;
+  }
+}
 .soc-icons {
   text-align: center;
   font-size: 1em;
@@ -63,6 +68,12 @@
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
+  }
+}
+@media only screen and (max-width:280px) {
+  .mainbg {
+    min-width: 260px;
+    width: auto !important;
   }
 }
 .col-md-5k,
@@ -143,6 +154,7 @@
 @media only screen and (max-width:340px) {
   .centralni_kvadrati .content {
     font-size: 5.5vw;
+    left: 13px;
   }
 }
 @media only screen and (min-width:768px) {

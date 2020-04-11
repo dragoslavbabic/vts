@@ -34,13 +34,24 @@
     background-color: #282F39;
     background-image: url("@{images}/it-portrait.jpg");
     height: 100%;
+
+    @media @sw-sm {
+      min-width: 260px;
+      width: auto !important;
+    }
+
   }
 
   &-naslov {
     @media @phone {
-        margin: 5% auto 5% auto;
-        width: 90%;
-        font-size: 30px;
+      margin: 5% auto 5% auto;
+      width: 90%;
+      font-size: 30px;
+    }
+
+    @media @sw {
+      width: 100%;
+      font-size: 1em;
     }
 
     h1 {
@@ -57,11 +68,16 @@
       font-weight: bold;
       .text-shadow();
       text-shadow+: 0 0 10px rgba(255, 255, 255, .5);
+
       @media @phone {
         margin: 5% auto 5% auto;
         width: 90%;
         font-size: 30px;
-    }
+      }
+
+      @media @sw {
+        font-size: 1.7em;
+      }
 
     }
   }
@@ -90,6 +106,7 @@
     font-size: 1.1em;
     color: white;
     .kursevi-border;
+
     @media @sw {
       font-size: 1.2em;
     }
@@ -101,7 +118,8 @@
 
   &-prva-rec {
     font-size: 1.5em;
-    @media @sw{
+
+    @media @sw {
       font-size: 1.4em;
     }
   }

@@ -2,12 +2,18 @@
 
 
 body {
-    min-width: 350px;
+    min-width: 340px;
     width: auto !important;
 
     @media @sw {
-        min-width: 320px;
+        min-width: 280px;
+        width: auto !important;
     }
+    @media @sw-sm{
+        min-width: 260px;
+        width: auto !important;
+    }
+
 }
 
 @media @sw {

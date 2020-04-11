@@ -25,11 +25,23 @@
   background-image: url("../images/it-portrait.jpg");
   height: 100%;
 }
+@media only screen and (max-width:280px) {
+  .odsek-bg {
+    min-width: 260px;
+    width: auto !important;
+  }
+}
 @media only screen and (max-width:767px) {
   .odsek-naslov {
     margin: 5% auto 5% auto;
     width: 90%;
     font-size: 30px;
+  }
+}
+@media only screen and (max-width:340px) {
+  .odsek-naslov {
+    width: 100%;
+    font-size: 1em;
   }
 }
 .odsek-naslov h1 {
@@ -51,6 +63,11 @@
     margin: 5% auto 5% auto;
     width: 90%;
     font-size: 30px;
+  }
+}
+@media only screen and (max-width:340px) {
+  .odsek-naslov h1 {
+    font-size: 1.7em;
   }
 }
 .odsek-row .col-lg-4:nth-of-type(even) .odsek-kursevi {
@@ -104,6 +121,11 @@
 }
 .end-brand > img {
   height: 70px;
+}
+@media only screen and (max-width:340px) {
+  .end-brand > img {
+    height: 50px;
+  }
 }
 .soc-icons {
   text-align: center;
